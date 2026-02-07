@@ -1,7 +1,10 @@
 // Q8: Abstract class as interface
+import 'part3-iheritance.dart';
+
 abstract class Registrable {
   void registerCourse(String courseName);
 }
+
 
 // Q9: Student implements Registrable (Updated Student class)
 class Student extends Person implements Registrable {
@@ -19,7 +22,7 @@ class Student extends Person implements Registrable {
   @override
   void registerCourse(String courseName) {
     registeredCourses.add(courseName);
-    print('✅ $name has registered for: $courseName');
+    print('$name has registered for: $courseName');
     print('Total courses: ${registeredCourses.length}');
   }
 }
