@@ -1,5 +1,5 @@
 // Q10: AttendanceMixin
-import 'part3-iheritance.dart';
+import 'part3-inheritance.dart';
 import 'part4-interfaces.dart';
 
 mixin AttendanceMixin {

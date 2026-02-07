@@ -1,5 +1,5 @@
 // Q8: Abstract class as interface
-import 'part3-iheritance.dart';
+import 'part3-inheritance.dart';
 
 abstract class Registrable {
   void registerCourse(String courseName);

@@ -1,5 +1,4 @@
 // Q6: Person class
-import 'part2-student-class-with-constructor.dart';
 class Person {
   String name;
   

@@ -1,4 +1,4 @@
-import 'part3-iheritance.dart';
+import 'part3-inheritance.dart';
 import 'part4-interfaces.dart';
 
 // Q19: NotificationMixin — prints a message when a student registers.
